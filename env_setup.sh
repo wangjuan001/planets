@@ -1,5 +1,5 @@
 ## install miniconda3
-https://repo.continuum.io/miniconda/Miniconda3-4.6.14-Linux-x86_64.sh
+wget https://repo.continuum.io/miniconda/Miniconda3-4.6.14-Linux-x86_64.sh
 bash Miniconda3-4.6.14-Linux-x86_64.sh
 
 ## activate bioconda
