@@ -48,3 +48,5 @@ readseq"""
 ## encode pipeline2 on slurm
 sbatch --export=ALL -n 1 --mem 2G -t 24:00:00 --partition genomics --account b1042 --wrap "caper run chip.wdl -i /projects/b1100/jwn2291/chip-seq-pipeline2/P298_H3K27Ac/P298_H3K27ac.local.json"
 croo [METADATA_JSON] --out-def-json [OUT_DEF_JSON]
+
+(encode-atac-seq-pipeline) [jwn2291@qnode5032 P298negATAC]$ caper -c ATAC-seqP298neg.conf run ../atac.wdl -i ATAC-seqP298neg.json
